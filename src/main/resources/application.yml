@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testing
+    username: postgres
+    password: sql123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+google:
+  clientId: YOUR_CLIENT_ID
